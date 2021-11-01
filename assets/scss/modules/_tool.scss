@@ -1,0 +1,357 @@
+body.tool {
+  overflow: hidden;
+}
+
+body.show-tool {
+  overflow-y: auto;
+  overflow-x: hidden;
+  .dropzone {
+    z-index: -1;
+  }
+  .mod-tool {
+    .tool {
+      margin-left: 0;
+      transition: margin 1s $ease;
+    }
+    .backgroundimage {
+      .uploadyourwork {
+        opacity: 0;
+        transition: 1s $ease;
+      }
+    }
+  }
+}
+.mod-tool {
+  .tool {
+    margin-left: -500px;
+    width: 500px;
+    padding: 100px 30px 30px;
+    position: relative;
+    transition: margin 1s $ease;
+    z-index: 2;
+    .closetool {
+      position: absolute;
+      top: 37px;
+      right: 30px;
+      height: 26px;
+      width: 26px;
+      color: $grey;
+      border: 1px solid $grey;
+      border-radius: 100px;
+      text-align: center;
+      display: block;
+      line-height: 25px;
+      transition: 0.4s $ease;
+      border-width: 1px;
+      &:hover {
+        color: $blue;
+        border-color: $blue;
+        cursor: pointer;
+      }
+    }
+    .accordion-header {
+      border-top: 1px solid $greylight;
+      position: relative;
+      padding-right: 30px;
+      .accordion-button {
+        color: $greydark;
+        &:hover {
+          color: $blue;
+        }
+        &[aria-expanded="true"],
+        &.disabled[aria-expanded="true"] {
+          color: $blue;
+        }
+        &.disabled {
+          pointer-events: none;  
+          color: $greylight;
+        }
+        &:after {
+          display: none;
+        }
+        &[aria-expanded="true"] ~ .btn-information {
+          display: block;
+        }
+      }
+      .btn-information {
+        display: none;
+        position: absolute;
+        top: 14px;
+        right: 0;
+        background: none;
+        border: none;
+        font-size: 22px;
+        color: $grey;
+        width: auto;
+        height: auto;
+        padding: 0;
+        z-index: 4;
+        transition: 0.4s $ease;
+        height: 26px;
+        width: 26px;
+        i {
+          line-height: 26px;
+          display: block;
+          text-align: center;
+        }
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+    .multi-input {
+      .form-check {
+        margin-bottom: 10px;
+        padding: 0;
+        .form-check-input {
+          vertical-align: center;
+          margin-left: 16px;
+          margin-top: 16px;
+          &:checked[type=radio] ~ .form-check-label {
+            color: $blue;
+            cursor: default;
+            pointer-events: none;
+            border-color: $blue;
+            &:hover {
+              
+            }
+          }
+        }
+        .form-check-label {
+          display: block;
+          padding: 10px 10px 10px 40px;
+          font-size: 16px;
+          font-weight: 500;
+          color: $greydark;
+          cursor: pointer;
+          background: $light;
+          border: 2px solid $light;
+          border-radius: 12px;
+          transition: 0.4s $ease;
+          &:hover {
+            color: $blue;
+            background: $light;
+          }
+        }
+      }
+    }
+    .btn-outline-dark {
+      text-align: left;
+    }
+    .takenodecertificate {
+      position: relative;
+      margin-bottom: 0;
+      .btn-outline-primary {
+        z-index: 2;
+      }
+      .btn {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        background: #fff;
+        i {
+          transform: rotate(180deg);
+        }
+        &.collapsed {
+          i {
+            transform: rotate(0);
+          }
+        }
+        &:hover {
+          background: $blue;
+          i {
+            color: #fff;
+          }
+        }
+      }
+      .collapse {
+        overflow: hidden;
+        opacity: 1;
+        display: block;
+        transition: height 0.8s $ease;
+        &:not(.show) {
+          height: 120px !important;
+        }
+      }
+      .collapsing {
+        height: inherit;
+      }
+    }
+  }
+  .backgroundimage {
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    min-height: 500px;
+    .creator {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      min-width: 350px;
+      padding: 4px 20px;
+      background: rgba($dark, 0.2);
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 99px;
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+    .uploadyourwork {
+      opacity: 1;
+      .card {
+        max-width: 400px;
+        min-height: 210px;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%), 0 10px 30px 0 rgb(0 0 0 / 20%);
+        .card-body {
+          padding: 0;
+          position: relative;
+          #hash_spinner {
+            max-width: 400px;
+            min-height: 210px;
+          }
+          .dropzone {
+            padding: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 0;
+            min-height: auto;
+            transition: 1s $ease;
+            color: $greydark;
+            &.dz-started {
+              .row.g-0 {
+                display: none;
+              }
+            }
+            h4 {
+              .hover {
+                display: none;
+              }
+              .nohover {
+                display: block;
+              }
+            }
+            .plus {
+              display: block;
+              margin: 0 auto;
+              border-radius: 100px;
+              color: #fff;
+              background: $greylight;
+              height: 40px;
+              width: 40px;
+              line-height: 36px;
+              text-align: center;
+              font-weight: bold;
+              font-size: 32px;
+              transition: 1s $ease;
+            }
+            .dz-message {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              padding: 0;
+              margin: 0;
+              .dz-button {
+                opacity: 0;
+              }
+            }
+            .dropzonecontent {
+              padding: 0 30px 0 0;
+            }
+            .dz-preview {
+              display: block;
+              width: 100%;
+              .dz-image {
+                background: transparent;
+              }
+              .dz-progress {
+                background: #eee !important;
+              }
+              .dz-details {
+                .dz-size {
+                  margin-bottom: 3em;
+                }
+                .dz-filename {
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  &:hover span {
+                    border: 1px solid transparent;
+                  }
+                }
+              }
+            }
+            &:hover, &.dz-drag-hover {
+              color: $blue;
+              h4 {
+                .hover {
+                  display: block;
+                }
+                .nohover {
+                  display: none;
+                }
+              }
+              .plus {
+                background: $blue;
+              }
+            } 
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .mod-tool {
+    .backgroundimage {
+      .uploadyourwork {
+        .card {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .mod-tool {
+    .tool {
+      margin-left: -100%;
+      max-width: 100%;
+    }
+    .backgroundimage {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+  }
+}

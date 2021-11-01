@@ -1,0 +1,77 @@
+$enable-gradients: false;
+
+// Color system
+$blue: #4c7ef2;
+$greylight: #dde0e2;
+$greylighter: #f4f4f4;
+$grey: #b2b2b2;
+$greydark: #3a3a3a;
+
+// Create your own map
+$custom-colors: (
+  "primary":        $blue,
+  "secondary":      $secondary,
+  "success":        $success,
+  "info":           $info,
+  "warning":        $warning,
+  "danger":         $danger,
+  "light":          $light,
+  "blue":           $blue,
+  "greylighter":    $greylighter,
+  "greylight":      $greylight,
+  "grey":           $grey,
+  "greydark":       $greydark
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Background colors
+@each $key, $val in $custom-colors {
+  .bg-#{$key} {
+    background-color: #{$val} !important;
+    color: color-contrast($val);
+  }
+}
+
+// Text colors
+@each $key, $val in $custom-colors {
+  .text-#{$key} {
+    color: #{$val} !important;
+  }
+}
+
+
+// Button custom
+
+.btn-primary {
+  color: #fff !important;
+}
+
+.btn-check:checked + .btn-outline-primary, 
+.btn-check:active + .btn-outline-primary, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary:hover,
+.btn-outline-primary.dropdown-toggle.show {
+  color: #fff !important;
+}
+
+.bg-blue {
+  a:not(.btn) {
+    color: #fff;
+    &:hover {
+      text-decoration: underline;
+    } 
+  }
+}
+// Gradient
+//
+// The gradient which is added to components if `$enable-gradients` is `true`
+// This gradient is also added to elements with `.bg-gradient`
+// scss-docs-start variable-gradient
+
+// $gradient: linear-gradient(45deg, $bluedark 0%, $orange 100%);
+//$gradient-hover: linear-gradient(45deg, $orange 0%, $bluedark 100%);
+
+// scss-docs-end variable-gradient

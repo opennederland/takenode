@@ -1,0 +1,15 @@
+.mod-pageheader {
+  min-height: 360px;
+  padding: 180px 0 30px; 
+  margin-bottom: 30px;
+  a {
+    text-decoration: underline;
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  .mod-pageheader {
+    padding-top: 80px; 
+  }
+}

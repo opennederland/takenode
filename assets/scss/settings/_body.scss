@@ -1,0 +1,27 @@
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $white;
+$body-color:                $grey;
+
+*:focus {
+	outline: none;
+}
+
+body {	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body .vh-100 {
+	height: calc(var(--vh, 1vh) * 100) !important;
+}
+
+body .min-vh-100 {
+	min-height: calc(var(--vh, 1vh) * 100) !important;
+}
+
+.container {
+	padding: 0 30px !important;
+}

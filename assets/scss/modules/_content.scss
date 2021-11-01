@@ -1,0 +1,15 @@
+.mod-content {
+  padding: 60px 0;
+  color: $dark;
+  + .mod-content {
+    padding-top: 0;
+  }
+  img.spread-the-word {
+    max-width: 275px;
+    max-height: 275px;
+  }
+}
+
+.profile-pic {
+  width: 114px;
+}

@@ -1,0 +1,20 @@
+.modal-backdrop {
+	background: $greylight;
+}
+.modal {
+	.modal-dialog {
+		.modal-content {
+			color: $greydark;
+			box-shadow: $box-shadow;
+			border: 0;
+			.modal-header {
+				border: 0;
+				padding: 20px 20px 0 20px;
+				color: $blue;
+			}
+			.modal-body {
+				padding: 20px;
+			}
+		}
+	}
+}

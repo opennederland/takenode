@@ -1,0 +1,40 @@
+.mod-nav {
+	position: absolute;
+	top: 90px;
+	left: 30px;
+	z-index: 2;
+	.btn-group {
+		box-shadow: $box-shadow;
+		background: $grey;
+		border-radius: $border-radius;
+		> .btn:not(:first-child), 
+		> .btn-group:not(:first-child) {
+			margin-left: 1px;
+		}
+		.btn-light {
+			border: 0;
+			&.active {
+				background: $greydark;
+				color: #fff;
+			}
+			&:hover {
+				background: $greylight;
+				&.active {
+					background: $greydark;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+
+@include media-breakpoint-up(sm) {
+	.mod-nav {
+		position: fixed;
+		top: 30px;
+		left: auto;
+		right: 30px;
+		box-shadow: $box-shadow;
+	}
+}
