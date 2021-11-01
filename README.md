@@ -23,4 +23,15 @@ The code is licensed under a [GNU GPLv3](LICENSE) license.
 
 The TakeNode logo is licensed under a [CC BY NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
-The background images in `assets/backgroundimages` are licensed under ...
+The conditions for using the background images in `assets/backgroundimages` can be found in the links below:
+
+ - [landscape/1.jpg](https://takenode.org/certificate?id=313343d2-6ed3-43e7-bfd1-e6d24485601c)
+ - [landscape/2.jpg](https://takenode.org/certificate?id=e5f1d32e-7d4a-487d-be92-41b844a4882e)
+ - [landscape/3.jpg](https://takenode.org/certificate?id=bb65426e-4147-427a-8dff-813886cc3e45)
+ - [landscape/4.jpg](https://takenode.org/certificate?id=78897716-7a69-45ef-985b-0ed7ead66893)
+ - [landscape/5.jpg](https://takenode.org/certificate?id=c6e1b797-87b1-41e1-99d2-07f42afbb525)
+ - [portrait/1.jpg](https://takenode.org/certificate?id=45f62e00-50e4-48cf-bdcf-5fea532b12a9)
+ - [portrait/2.jpg](https://takenode.org/certificate?id=ce10fc39-87b9-4fbe-bb7b-bf2b25480b4c)
+ - [portrait/3.jpg](https://takenode.org/certificate?id=45f62e00-50e4-48cf-bdcf-5fea532b12a9)
+ - [portrait/4.jpg](https://takenode.org/certificate?id=ce10fc39-87b9-4fbe-bb7b-bf2b25480b4c)
+ - [portrait/5.jpg](https://takenode.org/certificate?id=45f62e00-50e4-48cf-bdcf-5fea532b12a9)
