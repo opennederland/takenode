@@ -1,6 +1,6 @@
 # TakeNode
 
-Read more about TakeNode [here](https://takenode.org/info). If you want to develop your own version of TakeNode then you're welcome this repository.
+Read more about TakeNode [here](https://takenode.org/info). If you want to develop your own version of TakeNode then you're welcome to use this repository.
 
 ## Installation and configuration
 This is a PHP application that can be run on a standard LAMP or LEMP stack. The minimum required PHP version is 7.1.0 or higher.
