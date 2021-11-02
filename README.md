@@ -16,7 +16,7 @@ That's all. You should be able to run the application.
 For building the assets we use [CodeKit](https://codekitapp.com/).
 
 ## SimpleSAMLphp and Signicat
-The "Verified by IRMA" option in Step 2 depends on a SimpleSAMLphp application that is used to receive a user's identity via [Signicat](https://www.signicat.com/). If you wish to provide this to your users you have to contact Signicat to set this up. Alternatively you can take this option out or replace it with a different identity provider.
+The "Verified by IRMA" option in Step 2 depends on a [SimpleSAMLphp](https://simplesamlphp.org/) application that is used to receive a user's identity via [Signicat](https://www.signicat.com/). If you wish to provide this to your users you have to contact Signicat to set this up. Alternatively you can take this option out or replace it with a different identity provider.
 
 ## License
 The code is licensed under a [GNU GPLv3](LICENSE) license.
