@@ -67,7 +67,7 @@
                   <div class="col-md col-lg-5 d-flex align-items-center">
                     <div>
                       <h3 class="mb-4">Stap 2</h2>
-                      <p>In TakeNode kun je informatie over jou, de maker meegeven. Wil je anoniem blijven? Dat is een optie. Besef alleen dat jij, met je echte naam of geverifieerde naam uit je digitale IRMA-paspoort, meer vertrouwen bij een platform of een eindgebruiker wekt. Wil je meer weten over IRMA? Bezoek <a href="https://www.irma.app" target="_blank">https://www.irma.app</a></p>
+                      <p>In TakeNode kun je informatie over jou, de maker meegeven. Wil je anoniem blijven? Dat is een optie. Besef alleen dat jij, met je echte naam of geverifieerde naam uit je digitale Yivi-paspoort, meer vertrouwen bij een platform of een eindgebruiker wekt. Wil je meer weten over Yivi? Bezoek <a href="https://www.yivi.app" target="_blank">https://www.yivi.app</a></p>
                       <p>In alle drie de gevallen heb je de mogelijkheid om contactgegevens toe te voegen aan je TakeNode certificaat. Dit is een vrij tekstveld dus je kan er een website, e-mailadres, telefoonnummer en andere gegevens kwijt. Deel alleen gegevens waar jij je comfortabel bij voelt.</p>
                     </div>
                   </div>

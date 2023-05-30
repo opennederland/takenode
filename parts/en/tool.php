@@ -35,7 +35,7 @@
               <div class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed<?= $is_authenticated ? '' : ' disabled' ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <?php if($is_authenticated): ?>
-                  <h5 class="mb-0">2. I'm sending by IRMA verified personal details</h5>
+                  <h5 class="mb-0">2. I'm sending by Yivi verified personal details</h5>
                 <?php else: ?>
                   <h5 class="mb-0">2. Add personal details?</h5>
                 <?php endif; ?>

@@ -20,7 +20,7 @@
           <a href="https://www.sidnfonds.nl/excerpt" target="_blank">SIDN Fonds</a>,
           <a href="https://www.cultuureindhoven.nl/english/" target="_blank">Cultuur Eindhoven</a>,
           <a href="https://yurr.studio/" target="_blank">YURR.studio</a>,
-          <a href="https://irma.app/?lang=en" target="_blank">IRMA</a> and
+          <a href="https://www.yivi.app/en" target="_blank">Yivi</a> and
           <a href="https://www.signicat.com/" target="_blank">Signicat</a>.
         </p>
         <br>

@@ -1,17 +1,3 @@
-<!--
-<div class="btn-group btn-group-vertical w-100" role="group" aria-label="Persoonsgegevens">
-  <input type="radio" class="btn-check" name="persoonsgegevens" id="persoonsgegevens1" autocomplete="off" checked>
-  <label class="btn btn-outline-dark" for="persoonsgegevens1">Anoniem</label>
-  
-  <input type="radio" class="btn-check" name="persoonsgegevens" id="persoonsgegevens2" autocomplete="off">
-  <label class="btn btn-outline-dark" for="persoonsgegevens2">Naam</label>
-</div>
-<div class="clearfix"></div>
-<br>
-<input type="radio" class="btn-check" name="persoonsgegevens" id="persoonsgegevens3" autocomplete="off">
-<label class="btn btn-outline-dark w-100" for="persoonsgegevens3">Verified by IRMA</label>
--->
-
 <div class="multi-input">
   <div class="form-check">
     <input class="form-check-input" type="radio" name="persoonsgegevens" id="persoonsgegevens1" value="anoniem">
@@ -27,9 +13,9 @@
   </div>
   <br>
   <div class="form-check">
-    <input class="form-check-input" type="radio" name="persoonsgegevens" id="persoonsgegevens3" value="door IRMA geverifieerde"<?= $is_authenticated ? ' checked="checked"' : '' ?>>
+    <input class="form-check-input" type="radio" name="persoonsgegevens" id="persoonsgegevens3" value="door Yivi geverifieerde"<?= $is_authenticated ? ' checked="checked"' : '' ?>>
     <label class="form-check-label" for="persoonsgegevens3">
-      Verified by IRMA
+      Verified by Yivi
     </label>
   </div>
 </div>

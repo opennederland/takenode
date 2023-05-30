@@ -8,7 +8,7 @@
     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
     <div class="modal-body">
-      We offer 3 options at the moment. The option "anonymous" allows you to add an alias. When you are okay with sharing your full name, use the option "name". Or even better, go for <a href="https://irma.app" target="_blank">"Verified by IRMA"</a>, your digital passport on your smart phone. IRMA will only copy the verified name attribute, no other personal data. Additionally you have a text field to share more contact details like an email address and/or website.
+      We offer 3 options at the moment. The option "anonymous" allows you to add an alias. When you are okay with sharing your full name, use the option "name". Or even better, go for <a href="https://www.yivi.app" target="_blank">"Verified by Yivi"</a>, your digital passport on your smart phone. Yivi will only copy the verified name attribute, no other personal data. Additionally you have a text field to share more contact details like an email address and/or website.
     </div>
   </div>
   </div>

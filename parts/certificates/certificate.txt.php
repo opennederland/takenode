@@ -37,7 +37,7 @@ Unique file ID:
 <?php if(!empty($certificate->name_verified_at)): ?>
 
 Full name verification:
-Verified by IRMA (https://irma.app)
+Verified by Yivi (https://www.yivi.app)
 
 Verification timestamp:
 <?= htmlspecialchars($certificate->name_verified_at) ?> UNIX

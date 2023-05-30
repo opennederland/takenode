@@ -41,7 +41,7 @@ $certificate = $db->select_query('
 <?php if(!empty($certificate->name_verified_at)): ?>
 <p><small>
   Full name verification:<br>
-  Verified by IRMA (https://irma.app)
+  Verified by Yivi (https://www.yivi.app)
 </small></p>
 <p><small>
   Verification timestamp:<br>

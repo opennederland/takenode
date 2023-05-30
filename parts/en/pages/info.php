@@ -67,7 +67,7 @@
                   <div class="col-md col-lg-5 d-flex align-items-center">
                     <div>
                       <h3 class="mb-4">Step 2</h2>
-                      <p>Are you ready to add some personal data? If your prefer to stay anonymous we suggest you use an alias. Of course, if you use your real name or even a full, verified name your TakeNode will be more eligible. To include a verified name we work with IRMA (digital passport). Visit: <a href="https://www.irma.app" target="_blank">https://www.irma.app</a></p>
+                      <p>Are you ready to add some personal data? If your prefer to stay anonymous we suggest you use an alias. Of course, if you use your real name or even a full, verified name your TakeNode will be more eligible. To include a verified name we work with Yivi (digital passport). Visit: <a href="https://www.yivi.app" target="_blank">https://www.yivi.app</a></p>
                       <p>Next to your alias or (verified) name you have the option to add contact details e.g. email, website and/or telephone number. This information will appear on the certificate so only disclose data you want to share with the world.</p>
                     </div>
                   </div>
